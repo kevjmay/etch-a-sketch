@@ -11,6 +11,7 @@ align-items: center;
 flex-wrap: wrap;
 width: 800px;
 border: 2px solid black;
+border-radius: 6px;
 }
 
 .grid {
@@ -21,4 +22,16 @@ background-color: white;
 
 .grid:hover {
     background-color: black;
+}
+
+.resetButton, .resizeButton {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.resetButton:hover, .resizeButton:hover {
+    background-color: lightgrey;
 }
